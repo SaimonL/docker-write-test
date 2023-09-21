@@ -1,7 +1,7 @@
 # Read, Write, Delete Test
 
 This container [saimonsl/write-test:0.0.2](https://hub.docker.com/repository/docker/saimonsl/write-test/general) helps you do a write test to a specified destination in the environment variable called `TEST_PATH`  
-This is useful if you want to test and see if you can successfully write to a NFS is SMB service.  
+This is useful if you want to test and see if you can successfully write to a NFS or a SMB (Windows Share) service.  
 By looking at the output log you should see something like this
 
 ```
